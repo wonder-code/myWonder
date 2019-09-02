@@ -1,4 +1,4 @@
-package com.zl.sort;
+package com.zl.algorithm.sort;
 
 /**
  * 插入排序

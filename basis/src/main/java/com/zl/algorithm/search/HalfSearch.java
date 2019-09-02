@@ -1,4 +1,4 @@
-package com.zl.search;
+package com.zl.algorithm.search;
 
 /**
  * 二分查找法
