@@ -5,14 +5,14 @@ package com.zl.algorithm.sort;
  */
 public class MergeSort {
 
-    public static int[] sort(int[] array){
+    public int[] sort(int[] array){
         return merge(array,0,array.length-1);
     }
 
     //array:原始数组
     //first:当前数组索引开始值
     //last:当前数组索引结束值
-    private static int[] merge(int[] array,int first,int last){
+    private int[] merge(int[] array,int first,int last){
         if(first==last){    //数组只有一个元素
             return new int[]{array[first]};     //返回当前元素
         }

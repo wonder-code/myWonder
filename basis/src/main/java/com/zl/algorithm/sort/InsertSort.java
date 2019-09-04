@@ -4,7 +4,7 @@ package com.zl.algorithm.sort;
  * 插入排序
  */
 public class InsertSort {
-    public static int[] sort(int[] array){
+    public int[] sort(int[] array){
         for(int i=1;i<array.length;i++){
             int temp = array[i];//未排序中进行比较的数字
             int index = i-1;//已排序中进行比较的下标

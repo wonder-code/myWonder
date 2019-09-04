@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basis/basis.iml" filepath="$PROJECT_DIR$/basis/basis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaSE/javaSE.iml" filepath="$PROJECT_DIR$/javaSE/javaSE.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wonder.iml" filepath="$PROJECT_DIR$/.idea/wonder.iml" />
     </modules>
   </component>

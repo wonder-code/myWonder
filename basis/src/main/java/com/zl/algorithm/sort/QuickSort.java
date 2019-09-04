@@ -1,24 +1,24 @@
 package com.zl.algorithm.sort;
 
 public class QuickSort {
-    public static int[] sort(int[] array){
+    public int[] sort(int[] array){
         return change(array,0,array.length-1);
     }
 
 
-    public static int[] change(int[] array,int left,int right){
+    public int[] change(int[] array,int left,int right){
 
         int temp = array[left];//取一个基准数
         int l = left;
         int r = right;
         while (l<r){//左指针小于右指针
-            while (l<r && array[r]>temp){//从右边扫描，直到数据小于基准数
+            while (l<r && array[r]>=temp){//从右边扫描，直到数据小于基准数
                 r--;//右指针左移
             }
             if (array[r]<temp){//数据小于基准数时
                 array[l] = array[r];//把数据填到左指针指向的位置
             }
-            while (l<r && array[l]<temp){//从左边扫描，直到数据大于基准数
+            while (l<r && array[l]<=temp){//从左边扫描，直到数据大于基准数
                 l++;//左指针右移
             }
             if ((array[l]>temp)){//数据大于基准数时

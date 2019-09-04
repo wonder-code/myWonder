@@ -1,7 +1,7 @@
 package com.zl.algorithm.sort;
 
 public class ShellSort {
-    public static int[] sort(int[] array) {
+    public int[] sort1(int[] array) {
         int len = array.length;
         int step = (len-1)/2;
         for(int i=step;i>0;i/=2){
@@ -10,7 +10,7 @@ public class ShellSort {
         return array;
     }
 
-    public static int[] sort1(int[] array){
+    public int[] sort(int[] array){
         int number = array.length / 2;
         int i;
         int j;

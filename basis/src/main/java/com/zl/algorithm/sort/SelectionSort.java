@@ -4,7 +4,7 @@ package com.zl.algorithm.sort;
  * 选择排序
  */
 public class SelectionSort {
-    public static int[] sort(int[] array){
+    public int[] sort(int[] array){
         int temp;
         for(int i=0;i<array.length-1;i++){
             int[] tag = new int[]{i,array[i]};
@@ -19,10 +19,6 @@ public class SelectionSort {
                 array[tag[0]] = array[i];
                 array[i] = temp;
             }
-            for(int a:array){
-                System.out.print(a);
-            }
-            System.out.println();
         }
 
         return array;
