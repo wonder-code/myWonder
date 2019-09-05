@@ -20,7 +20,6 @@ public class SelectionSort {
                 array[i] = temp;
             }
         }
-
         return array;
     }
 }

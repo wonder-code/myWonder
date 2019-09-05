@@ -8,7 +8,6 @@ public class MergeSort {
     public int[] sort(int[] array){
         return merge(array,0,array.length-1);
     }
-
     //array:原始数组
     //first:当前数组索引开始值
     //last:当前数组索引结束值

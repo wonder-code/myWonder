@@ -1,16 +1,11 @@
 package com.zl.test;
 
 import com.zl.algorithm.sort.*;
-import javafx.scene.control.TreeTableView;
 import org.junit.Test;
 
 import java.util.Random;
 
-public class Test1 {
-    @Test
-    public void test(){
-
-    }
+public class sorttest {
     @Test
     public void sortTest(){
         BubbleSort bubbleSort = new BubbleSort();   //2648ms
@@ -31,9 +26,9 @@ public class Test1 {
         long t2 = System.currentTimeMillis();
         boolean flag=true;
         for(int i=0;i<100000-1;i++){
-           if(ary[i+1]<ary[i]){
-               flag=false;
-           }
+            if(ary[i+1]<ary[i]){
+                flag=false;
+            }
         }
         System.out.println(t2-t1+"ms  "+flag);
     }
